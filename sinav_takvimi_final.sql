@@ -1,8 +1,8 @@
 ﻿DROP DATABASE IF EXISTS sinav_takvimi_db;
 CREATE DATABASE sinav_takvimi_db
     ENCODING = 'UTF8'
-    LC_COLLATE = 'tr_TR.UTF-8'
-    LC_CTYPE = 'tr_TR.UTF-8';
+    LC_COLLATE = 'C'
+    LC_CTYPE = 'C';
 \c sinav_takvimi_db;
 CREATE EXTENSION IF NOT EXISTS "pg_trgm";
 CREATE EXTENSION IF NOT EXISTS "pg_stat_statements";

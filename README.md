@@ -1,14 +1,21 @@
 # 🎓 Kocaeli Üniversitesi Sınav Takvimi Yönetim Sistemi
 
+<div align="center">
+
 ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
-![Python](https://img.shields.io/badge/python-3.8+-green.svg)
-![PySide6](https://img.shields.io/badge/PySide6-6.0+-purple.svg)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-12+-blue.svg)
+![Python](https://img.shields.io/badge/python-3.11+-green.svg)
+![PySide6](https://img.shields.io/badge/PySide6-6.6+-purple.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17+-blue.svg)
+![Status](https://img.shields.io/badge/status-Production-success.svg)
 ![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 
-**Profesyonel ve Akıllı Sınav Programı Yönetim Sistemi**
+**Profesyonel Sınav Programı Yönetim Sistemi**
 
-Kocaeli Üniversitesi için özel olarak geliştirilmiş, yapay zeka destekli otomatik sınav programı oluşturma ve yönetim sistemi. Modern arayüz, güçlü algoritmalar ve kapsamlı raporlama özellikleri ile sınav organizasyonunu kolaylaştırır.
+Kocaeli Üniversitesi için özel geliştirilmiş, **otomatik sınav programı oluşturma** ve **yönetim** sistemi. Modern arayüz, akıllı algoritmalar ve kapsamlı raporlama ile sınav organizasyonunu kolaylaştırır.
+
+[Hızlı Başlangıç](#-hızlı-başlangıç) • [Özellikler](#-ana-özellikler) • [İletişim](#-iletişim)
+
+</div>
 
 ---
 
@@ -16,16 +23,19 @@ Kocaeli Üniversitesi için özel olarak geliştirilmiş, yapay zeka destekli ot
 
 - [Hakkında](#-hakkında)
 - [Ana Özellikler](#-ana-özellikler)
+- [Ekran Görüntüleri](#-ekran-görüntüleri)
 - [Teknolojiler](#-teknolojiler)
 - [Sistem Gereksinimleri](#-sistem-gereksinimleri)
+- [Hızlı Başlangıç](#-hızlı-başlangıç)
 - [Kurulum](#-kurulum)
 - [Yapılandırma](#️-yapılandırma)
 - [Kullanım Kılavuzu](#-kullanım-kılavuzu)
-- [Proje Yapısı](#-proje-yapısı)
 - [Algoritmalar](#-algoritmalar)
-- [Veritabanı Şeması](#-veritabanı-şeması)
+- [Proje Yapısı](#-proje-yapısı)
+- [Contributing](#-contributing)
+- [Roadmap](#-roadmap)
 - [Güvenlik](#-güvenlik)
-- [Sorun Giderme](#-sorun-giderme)
+- [İletişim](#-iletişim)
 
 ---
 
@@ -49,7 +59,77 @@ Bu sistem, üniversitelerin karşılaştığı en karmaşık sorunlardan biri ol
 
 ---
 
-## ✨ Ana Özellikler
+## 📸 Ekran Görüntüleri
+
+### **Giriş Ekranı (Login)**
+Profesyonel ve güvenli giriş arayüzü
+
+![KOÜ Sınav Takvimi - Giriş Ekranı](ekran/01_login.png)
+
+---
+
+### **Admin Dashboard - Light Theme**
+Sistem yöneticisinin ana kontrol paneli
+
+![Admin Dashboard](ekran/02_admin_dashboard_light.png)
+
+---
+
+### **Admin Dashboard - Dark Theme**
+Tema desteği ile göz yorulmayan arayüz
+
+![Admin Dashboard Dark](ekran/03_admin_dashboard_dark.png)
+
+---
+
+### **Kullanıcı Yönetimi**
+Koordinatör ve admin kullanıcılarını yönetme
+
+![Kullanıcı Yönetimi](ekran/04_user_management.png)
+
+---
+
+### **Koordinatör Dashboard - Ders Listesi**
+Bölümle ilişkili derslerin listesi
+
+![Ders Listesi](ekran/05_coordinator_dashboard.png)
+
+---
+
+### **Ders Yükleme**
+Excel ile toplu ders yükleme işlemi
+
+![Ders Yükleme](ekran/06_course_upload.png)
+
+---
+
+### **Bölüm Seçimi**
+Koordinatörün çalışacağı bölümü seçme
+
+![Bölüm Seçimi](ekran/07_department_selection.png)
+
+---
+
+### **Bölüm Yönetimi**
+Üniversitenin bölümlerini yönetme
+
+![Bölüm Yönetimi](ekran/08_department_management.png)
+
+---
+
+### **Profil ve Ayarlar**
+Kullanıcı profili, şifre değişimi ve tercihler
+
+![Ayarlar](ekran/09_settings.png)
+
+---
+
+### **Derslik Yönetimi**
+Üniversitenin dersliklerini yönetme, kapasite ayarlama
+
+![Derslik Yönetimi](ekran/10_classroom_management.png)
+
+---
 
 ### 🤖 Akıllı Sınav Programı Oluşturma
 
@@ -947,12 +1027,120 @@ pip install -r requirements.txt
 
 ---
 
-## 📞 İletişim ve Destek
+## 🤝 Contributing
 
-**Kocaeli Üniversitesi**
-- 🌐 Website: [www.kocaeli.edu.tr](https://www.kocaeli.edu.tr)
-- 📧 Email: bilgiislem@kocaeli.edu.tr
-- ☎️ Telefon: +90 (262) 303 10 00
+Bu projeye katkıda bulunmak istiyorsanız:
+
+### **Hata Bildirimi**
+- 🐛 Hata bulduğunuz zaman belirtilen bilgilendirme formu doldurarak iletişime geçin
+- 📝 Hata tanımlaması, adımları ve çıktısını net şekilde açıklayın
+- 📸 Mümkünse ekran görüntüleri ekleyin
+
+### **Özellik İsteği**
+- 💡 Yeni özellik önerileri için (ozdmromer24@gmail.com) ile iletişime geçin
+- 📋 Önerinizi açık ve detaylı bir şekilde tanımlayın
+- 🔗 İlgili kullanım örnekleri sağlayın
+
+### **Kod Katkısı**
+- 🍴 Depoyu forklayın
+- 🌿 Yeni bir branch oluşturun (`feature/new-feature`)
+- ✍️ Kodunuzu yazın ve test edin
+- 📤 Pull request gönderin
+
+### **Kodlama Standartları**
+- 🐍 PEP 8 Python stil kılavuzunu takip edin
+- 💬 Anlaşılır değişken ve fonksiyon isimleri kullanın
+- 📚 Fonksiyonlar için docstring yazın (türkçe veya ingilizce)
+- 🧪 Test kodları ekleyin
+
+---
+
+## 🗺 Roadmap
+
+### **v2.1.0** (Planlanıyor - Q2 2025)
+- 🌐 Multi-tenancy desteği (birden fazla üniversite)
+- 📊 Gelişmiş istatistik ve analiz dashboard'u
+- 📅 İçe aktarım/dışa aktarım işlemleri iyileştirmesi
+- 🔔 Email bildirimleri (başlangıç tarihi, program değişiklikleri)
+- 🌍 İngilizce dil desteği
+
+### **v3.0.0** (Planlanıyor - Q4 2025)
+- 🌐 Web uygulaması (Django REST API + React)
+- ☁️ Cloud deployment (AWS, Azure)
+- 📱 Mobile uygulama (React Native)
+- 🔐 SSO entegrasyonu (Active Directory, LDAP)
+- 📈 Yapay zeka (ML) tabanlı optimizasyon
+- 🔄 Otomatik sınav programı yönetimi
+
+### **Ara Sürümlerde Planlanmış İyileştirmeler**
+- ⚡ Performans optimizasyonu
+- 🎨 UX/UI revizyonu
+- 📚 Kapsamlı API dokümantasyonu
+- 🧪 Otomatik test coverage artırımı
+- 🐳 Docker kontainerizasyonu
+
+---
+
+## 🔒 Güvenlik
+
+### **Şifre Güvenliği**
+- ✅ **BCrypt Hashing**: Tüm şifreler BCrypt ile hash'lenir (12 rounds)
+- ✅ **Strong Password Requirement**: Minimum 8 karakter (sonra değiştirilebilir)
+- ✅ **Password Reset**: E-mail doğrulamalı güvenli şifre sıfırlama
+- ✅ **Session Management**: Otomatik session timeout (varsayılan: 8 saat)
+
+### **Veritabanı Güvenliği**
+- ✅ **Connection Pooling**: Thread-safe bağlantı havuzu
+- ✅ **SQL Injection Prevention**: Parametreli SQL sorgular
+- ✅ **Row Level Security (RLS)**: PostgreSQL RLS politikaları
+- ✅ **Encrypted Passwords**: Tüm şifreler veritabanında hash'lı
+
+### **Uygulama Güvenliği**
+- ✅ **Environment Variables**: Hassas bilgiler .env dosyasında
+- ✅ **CSRF Protection**: Mevcut (PySide6 GUI uygulaması için otomatik)
+- ✅ **Input Validation**: Tüm kullanıcı girdileri doğrulanır
+- ✅ **Audit Logging**: Tüm işlemler kaydedilir
+
+### **Erişim Kontrol**
+- ✅ **Role-Based Access Control (RBAC)**: Admin, Koordinatör, Okuyucu rolleri
+- ✅ **Department Level Access**: Koordinatörler sadece kendi bölümlerine erişir
+- ✅ **Action Logging**: Kim, ne zaman, ne yaptığı kaydedilir
+- ✅ **IP Whitelist**: Opsiyonel IP kısıtlaması
+
+### **Güvenlik Önerileri**
+- 🔐 Düzenli olarak şifreleri güncelleyin
+- 🔐 Admin hesabının şifresini güçlü tutun
+- 🔐 İşletim sistemi ve PostgreSQL'i güncel tutun
+- 🔐 Düzenli backuplar alın
+- 🔐 Log dosyalarını düzenli olarak gözden geçirin
+
+### **Rapor Etme**
+Güvenlik zaafiyeti bulduysanız:
+- ⚠️ **Lütfen herkese açık şekilde bildirmeyin**
+- 📧 **E-mail gönderin**: ozdmromer24@gmail.com
+- ☎️ **Telefon**: 05334486424
+- ⏰ **Yanıt Süresi**: 48 saat içinde
+
+---
+
+## 📞 İletişim
+
+### **Proje Geliştirici**
+**Ömer Faruk Özdemir**
+- 📧 **E-posta**: ozdmromer24@gmail.com
+- ☎️ **Telefon**: 05334486424
+- 💼 **LinkedIn**: [LinkedIn Profilim](https://linkedin.com/in/ozdemir)
+- 🐙 **GitHub**: [@ozdemir](https://github.com/ozdemir)
+
+### **Kocaeli Üniversitesi - Bilgi İşlem Daire Başkanlığı**
+- 🌐 **Website**: [www.kocaeli.edu.tr](https://www.kocaeli.edu.tr)
+- 📧 **Email**: bilgiislem@kocaeli.edu.tr
+- ☎️ **Telefon**: +90 (262) 303 10 00
+
+### **Destek ve Geri Bildirim**
+- 🐛 **Hata Bildirimi**: ozdmromer24@gmail.com
+- 💡 **Özellik İsteği**: ozdmromer24@gmail.com
+- 📞 **Acil Sorunlar**: 05334486424
 
 ---
 
@@ -982,7 +1170,7 @@ Bu proje **Kocaeli Üniversitesi**'ne aittir ve özel lisans altındadır.
 
 ---
 
-**Son Güncelleme:** 30 Ocak 2025  
+**Son Güncelleme:** 10 Şubat 2026  
 **Dokümantasyon Versiyonu:** 2.0.0
 
 ---
@@ -990,5 +1178,9 @@ Bu proje **Kocaeli Üniversitesi**'ne aittir ve özel lisans altındadır.
 <div align="center">
 
 **⭐ Bu proje Kocaeli Üniversitesi'nin dijital dönüşüm yolculuğunun bir parçasıdır ⭐**
+
+👨‍💼 **Geliştirici:** Ömer Faruk Özdemir  
+📧 **İletişim:** ozdmromer24@gmail.com  
+📞 **Telefon:** 05334486424
 
 </div>

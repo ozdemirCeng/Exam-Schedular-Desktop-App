@@ -56,10 +56,7 @@ class SingleWindowApp(QStackedWidget):
         self.setWindowTitle("KOÜ Sınav Takvimi Sistemi")
         self.setMinimumSize(1400, 800)
         
-        if not self.check_database():
-            return
-        
-        # Create login page
+        # Create login page (database check is optional now)
         self.login_page = LoginView()
         self.login_page.login_success.connect(self.on_login_success)
         self.addWidget(self.login_page)
@@ -70,6 +67,12 @@ class SingleWindowApp(QStackedWidget):
         # Show login page
         self.setCurrentWidget(self.login_page)
         self.showMaximized()
+        
+        # Check database in background
+        if db._pool is not None:
+            self.logger.info("✅ Veritabanı bağlantısı başarılı")
+        else:
+            self.logger.warning("⚠️ Veritabanı çevrimdışı - offline modda çalışan uygulama")
         
         self.logger.info("✅ Uygulama başlatıldı - Login ekranı")
     

@@ -31,7 +31,10 @@ class DatabaseManager:
 
     def __init__(self):
         if self._pool is None:
-            self._initialize_pool()
+            try:
+                self._initialize_pool()
+            except Exception as e:
+                logger.warning(f"Could not initialize database: {str(e)}. App will run in offline mode")
 
     def _initialize_pool(self):
         """Connection pool'u başlat"""
@@ -76,6 +79,10 @@ class DatabaseManager:
         """Context manager ile güvenli bağlantı"""
         conn = None
         try:
+            if self._pool is None:
+                logger.warning("Database pool is not available (offline mode)")
+                yield None
+                return
             self._ensure_pool()
             try:
                 conn = self._pool.getconn()
@@ -97,6 +104,9 @@ class DatabaseManager:
     def get_cursor(self, commit=True):
         """Context manager ile güvenli cursor"""
         with self.get_connection() as conn:
+            if conn is None:
+                yield None
+                return
             cursor = conn.cursor()
             try:
                 yield cursor
@@ -112,6 +122,9 @@ class DatabaseManager:
     def execute_query(self, query: str, params: tuple = None, fetch: bool = True) -> Optional[List[Dict]]:
         """SQL sorgusu çalıştır"""
         with self.get_cursor() as cursor:
+            if cursor is None:
+                logger.warning("Database cursor unavailable - returning empty result")
+                return [] if fetch else None
             cursor.execute(query, params or ())
             if fetch:
                 return cursor.fetchall()
@@ -120,6 +133,9 @@ class DatabaseManager:
     def execute_many(self, query: str, params_list: List[tuple]) -> int:
         """Toplu INSERT/UPDATE"""
         with self.get_cursor() as cursor:
+            if cursor is None:
+                logger.warning("Database cursor unavailable - returning 0")
+                return 0
             cursor.executemany(query, params_list)
             return cursor.rowcount
 
