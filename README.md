@@ -75,59 +75,59 @@ Sistem yöneticisinin ana kontrol paneli
 
 ---
 
-### **Admin Dashboard - Dark Theme**
-Tema desteği ile göz yorulmayan arayüz
-
-![Admin Dashboard Dark](screenshots/03_admin_dashboard_dark.png)
-
----
-
 ### **Kullanıcı Yönetimi**
 Koordinatör ve admin kullanıcılarını yönetme
 
-![Kullanıcı Yönetimi](screenshots/04_user_management.png)
-
----
-
-### **Koordinatör Dashboard - Ders Listesi**
-Bölümle ilişkili derslerin listesi
-
-![Ders Listesi](screenshots/05_coordinator_dashboard.png)
-
----
-
-### **Ders Yükleme**
-Excel ile toplu ders yükleme işlemi
-
-![Ders Yükleme](screenshots/06_course_upload.png)
-
----
-
-### **Bölüm Seçimi**
-Koordinatörün çalışacağı bölümü seçme
-
-![Bölüm Seçimi](screenshots/07_department_selection.png)
+![Kullanıcı Yönetimi](screenshots/03_user_management.png)
 
 ---
 
 ### **Bölüm Yönetimi**
 Üniversitenin bölümlerini yönetme
 
-![Bölüm Yönetimi](screenshots/08_department_management.png)
+![Bölüm Yönetimi](screenshots/04_department_management.png)
 
 ---
 
 ### **Profil ve Ayarlar**
 Kullanıcı profili, şifre değişimi ve tercihler
 
-![Ayarlar](screenshots/09_settings.png)
+![Ayarlar](screenshots/05_settings.png)
+
+---
+
+### **Bölüm Seçimi**
+Koordinatörün çalışacağı bölümü seçme
+
+![Bölüm Seçimi](screenshots/06_department_selection.png)
+
+---
+
+### **Bölüm Yönetimi - Dersleri Yönetme**
+Bölüme ait dersleri ve sınıf bilgilerini yönetme
+
+![Bölüm Yönetimi - Dersler](screenshots/07_department_management.png)
 
 ---
 
 ### **Derslik Yönetimi**
 Üniversitenin dersliklerini yönetme, kapasite ayarlama
 
-![Derslik Yönetimi](screenshots/10_classroom_management.png)
+![Derslik Yönetimi](screenshots/08_classroom_management.png)
+
+---
+
+### **Ders Listesi - Koordinatör Dashboard**
+Bölümle ilişkili derslerin listesi
+
+![Ders Listesi](screenshots/09_course_list.png)
+
+---
+
+### **Admin Dashboard - Dark Theme**
+Tema desteği ile göz yorulmayan arayüz
+
+![Admin Dashboard Dark](screenshots/10_admin_dashboard_dark.png)
 
 ---
 
