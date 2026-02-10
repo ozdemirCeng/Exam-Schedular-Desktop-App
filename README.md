@@ -64,70 +64,70 @@ Bu sistem, üniversitelerin karşılaştığı en karmaşık sorunlardan biri ol
 ### **Giriş Ekranı (Login)**
 Profesyonel ve güvenli giriş arayüzü
 
-![KOÜ Sınav Takvimi - Giriş Ekranı](ekran/01_login.png)
+![KOÜ Sınav Takvimi - Giriş Ekranı](screenshots/01_login.png)
 
 ---
 
 ### **Admin Dashboard - Light Theme**
 Sistem yöneticisinin ana kontrol paneli
 
-![Admin Dashboard](ekran/02_admin_dashboard_light.png)
+![Admin Dashboard](screenshots/02_admin_dashboard_light.png)
 
 ---
 
 ### **Admin Dashboard - Dark Theme**
 Tema desteği ile göz yorulmayan arayüz
 
-![Admin Dashboard Dark](ekran/03_admin_dashboard_dark.png)
+![Admin Dashboard Dark](screenshots/03_admin_dashboard_dark.png)
 
 ---
 
 ### **Kullanıcı Yönetimi**
 Koordinatör ve admin kullanıcılarını yönetme
 
-![Kullanıcı Yönetimi](ekran/04_user_management.png)
+![Kullanıcı Yönetimi](screenshots/04_user_management.png)
 
 ---
 
 ### **Koordinatör Dashboard - Ders Listesi**
 Bölümle ilişkili derslerin listesi
 
-![Ders Listesi](ekran/05_coordinator_dashboard.png)
+![Ders Listesi](screenshots/05_coordinator_dashboard.png)
 
 ---
 
 ### **Ders Yükleme**
 Excel ile toplu ders yükleme işlemi
 
-![Ders Yükleme](ekran/06_course_upload.png)
+![Ders Yükleme](screenshots/06_course_upload.png)
 
 ---
 
 ### **Bölüm Seçimi**
 Koordinatörün çalışacağı bölümü seçme
 
-![Bölüm Seçimi](ekran/07_department_selection.png)
+![Bölüm Seçimi](screenshots/07_department_selection.png)
 
 ---
 
 ### **Bölüm Yönetimi**
 Üniversitenin bölümlerini yönetme
 
-![Bölüm Yönetimi](ekran/08_department_management.png)
+![Bölüm Yönetimi](screenshots/08_department_management.png)
 
 ---
 
 ### **Profil ve Ayarlar**
 Kullanıcı profili, şifre değişimi ve tercihler
 
-![Ayarlar](ekran/09_settings.png)
+![Ayarlar](screenshots/09_settings.png)
 
 ---
 
 ### **Derslik Yönetimi**
 Üniversitenin dersliklerini yönetme, kapasite ayarlama
 
-![Derslik Yönetimi](ekran/10_classroom_management.png)
+![Derslik Yönetimi](screenshots/10_classroom_management.png)
 
 ---
 
