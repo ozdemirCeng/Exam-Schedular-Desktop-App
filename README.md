@@ -62,6 +62,7 @@ Bu sistem, üniversitelerin karşılaştığı en karmaşık sorunlardan biri ol
 ## 📸 Ekran Görüntüleri
 
 ### **Giriş Ekranı (Login)**
+
 Profesyonel ve güvenli giriş arayüzü
 
 ![KOÜ Sınav Takvimi - Giriş Ekranı](screenshots/01_login.png)
@@ -69,6 +70,7 @@ Profesyonel ve güvenli giriş arayüzü
 ---
 
 ### **Admin Dashboard - Light Theme**
+
 Sistem yöneticisinin ana kontrol paneli
 
 ![Admin Dashboard](screenshots/02_admin_dashboard_light.png)
@@ -76,6 +78,7 @@ Sistem yöneticisinin ana kontrol paneli
 ---
 
 ### **Kullanıcı Yönetimi**
+
 Koordinatör ve admin kullanıcılarını yönetme
 
 ![Kullanıcı Yönetimi](screenshots/03_user_management.png)
@@ -83,6 +86,7 @@ Koordinatör ve admin kullanıcılarını yönetme
 ---
 
 ### **Bölüm Yönetimi**
+
 Üniversitenin bölümlerini yönetme
 
 ![Bölüm Yönetimi](screenshots/04_department_management.png)
@@ -90,6 +94,7 @@ Koordinatör ve admin kullanıcılarını yönetme
 ---
 
 ### **Profil ve Ayarlar**
+
 Kullanıcı profili, şifre değişimi ve tercihler
 
 ![Ayarlar](screenshots/05_settings.png)
@@ -97,6 +102,7 @@ Kullanıcı profili, şifre değişimi ve tercihler
 ---
 
 ### **Bölüm Seçimi**
+
 Koordinatörün çalışacağı bölümü seçme
 
 ![Bölüm Seçimi](screenshots/06_department_selection.png)
@@ -104,6 +110,7 @@ Koordinatörün çalışacağı bölümü seçme
 ---
 
 ### **Bölüm Yönetimi - Dersleri Yönetme**
+
 Bölüme ait dersleri ve sınıf bilgilerini yönetme
 
 ![Bölüm Yönetimi - Dersler](screenshots/07_department_management.png)
@@ -111,6 +118,7 @@ Bölüme ait dersleri ve sınıf bilgilerini yönetme
 ---
 
 ### **Derslik Yönetimi**
+
 Üniversitenin dersliklerini yönetme, kapasite ayarlama
 
 ![Derslik Yönetimi](screenshots/08_classroom_management.png)
@@ -118,6 +126,7 @@ Bölüme ait dersleri ve sınıf bilgilerini yönetme
 ---
 
 ### **Ders Listesi - Koordinatör Dashboard**
+
 Bölümle ilişkili derslerin listesi
 
 ![Ders Listesi](screenshots/09_course_list.png)
@@ -125,6 +134,7 @@ Bölümle ilişkili derslerin listesi
 ---
 
 ### **Admin Dashboard - Dark Theme**
+
 Tema desteği ile göz yorulmayan arayüz
 
 ![Admin Dashboard Dark](screenshots/10_admin_dashboard_dark.png)
@@ -134,6 +144,7 @@ Tema desteği ile göz yorulmayan arayüz
 ### 🤖 Akıllı Sınav Programı Oluşturma
 
 **Çok Stratejili Algoritma:**
+
 - 🎯 **Strateji 1**: Balanced Round-Robin - Dengeli dağılım odaklı
 - 🚀 **Strateji 2**: Greedy Packing - Hızlı yerleştirme
 - 🔄 **Strateji 3**: Random Shuffle - Farklı kombinasyonlar
@@ -141,10 +152,12 @@ Tema desteği ile göz yorulmayan arayüz
 - 📊 **Akıllı Puanlama**: 8 farklı kriter ile program kalitesi değerlendirmesi
 
 **Kısıtlamalar (Constraints):**
+
 - ❌ **Hard Constraints**: Öğrenci çakışmaları (mutlaka uyulmalı)
 - ⚠️ **Soft Constraints**: Günlük limitler, boşluklar, derslik kullanımı (optimize edilir)
 
 **Özellikleri:**
+
 - Vize, Final, Bütünleme sınavları için ayrı programlar
 - Günlük sınav sayısı limiti (sınıf bazlı)
 - Öğrenci günlük sınav limiti
@@ -155,12 +168,14 @@ Tema desteği ile göz yorulmayan arayüz
 ### 🪑 Oturma Planı Oluşturma
 
 **Round-Robin Dağıtım Algoritması:**
+
 - 🔄 Dersliklere dengeli öğrenci dağılımı
 - 📏 Kapasite kontrolü ile over-capacity önleme
 - 🎲 Adil ve dengeli yerleştirme
 - 📊 Sıra yapısına uygun (2'li, 3'lü, 4'lü düzenler)
 
 **Görselleştirme:**
+
 - 🗺️ İnteraktif derslik haritası
 - 👤 Öğrenci detay kartları
 - 📈 Derslik doluluk istatistikleri
@@ -169,6 +184,7 @@ Tema desteği ile göz yorulmayan arayüz
 ### 📊 Derslik Yönetimi
 
 **Özellikler:**
+
 - ➕ Derslik ekleme/düzenleme/silme
 - 📐 Kapasite ve yerleşim planı tanımlama
 - 🏢 Bina ve kat bazlı organizasyon
@@ -179,6 +195,7 @@ Tema desteği ile göz yorulmayan arayüz
 ### 📚 Ders ve Öğrenci Yönetimi
 
 **Toplu Veri Yükleme:**
+
 - 📥 Excel ile ders listesi yükleme
 - 📥 Excel ile öğrenci listesi yükleme
 - 🔄 Otomatik veri doğrulama
@@ -189,10 +206,12 @@ Tema desteği ile göz yorulmayan arayüz
 ### 📄 Raporlama ve Export
 
 **Desteklenen Formatlar:**
+
 - 📗 **Excel (.xlsx)**: Detaylı tablolar, çoklu sayfa
 - 📕 **PDF**: Profesyonel formatlanmış raporlar
 
 **Rapor Türleri:**
+
 - 📅 Sınav programı (genel)
 - 🏫 Sınıf bazlı programlar
 - 🏢 Derslik bazlı programlar
@@ -202,6 +221,7 @@ Tema desteği ile göz yorulmayan arayüz
 ### 🎨 Modern Arayüz
 
 **Tasarım Özellikleri:**
+
 - 🎨 KOÜ kurumsal renkleri (Yeşil tema)
 - 🌓 Dark/Light tema desteği
 - 📱 Responsive tasarım
@@ -214,6 +234,7 @@ Tema desteği ile göz yorulmayan arayüz
 ## 🛠 Teknolojiler
 
 ### **Backend & Core**
+
 ```
 Python 3.8+              # Ana programlama dili
 PostgreSQL 12+           # İlişkisel veritabanı
@@ -222,6 +243,7 @@ python-dotenv           # Ortam değişkenleri yönetimi
 ```
 
 ### **GUI Framework**
+
 ```
 PySide6 (Qt6)           # Modern GUI framework
 QtCore, QtWidgets       # UI bileşenleri
@@ -229,6 +251,7 @@ QtGui                   # Grafik ve görselleştirme
 ```
 
 ### **Data Processing**
+
 ```
 pandas                  # Veri işleme ve analiz
 openpyxl               # Excel okuma/yazma
@@ -236,12 +259,14 @@ xlrd                   # Excel okuma (eski format)
 ```
 
 ### **Document Generation**
+
 ```
 reportlab              # PDF oluşturma
 Pillow (PIL)           # Görsel işleme
 ```
 
 ### **Security**
+
 ```
 bcrypt                 # Şifre hashleme
 hashlib                # Hash fonksiyonları
@@ -249,6 +274,7 @@ secrets                # Güvenli rastgele değer üretimi
 ```
 
 ### **Utilities**
+
 ```
 logging                # Uygulama loglama
 datetime               # Tarih/saat işlemleri
@@ -262,22 +288,22 @@ dataclasses            # Veri sınıfları
 
 ### **Yazılım Gereksinimleri**
 
-| Bileşen | Minimum | Önerilen |
-|---------|---------|----------|
-| **Python** | 3.8 | 3.10+ |
-| **PostgreSQL** | 12.0 | 14.0+ |
-| **İşletim Sistemi** | Windows 10 | Windows 11 |
-| | macOS 10.14 | macOS 12+ |
-| | Ubuntu 20.04 | Ubuntu 22.04+ |
+| Bileşen             | Minimum      | Önerilen      |
+| ------------------- | ------------ | ------------- |
+| **Python**          | 3.8          | 3.10+         |
+| **PostgreSQL**      | 12.0         | 14.0+         |
+| **İşletim Sistemi** | Windows 10   | Windows 11    |
+|                     | macOS 10.14  | macOS 12+     |
+|                     | Ubuntu 20.04 | Ubuntu 22.04+ |
 
 ### **Donanım Gereksinimleri**
 
-| Bileşen | Minimum | Önerilen |
-|---------|---------|----------|
+| Bileşen     | Minimum           | Önerilen           |
+| ----------- | ----------------- | ------------------ |
 | **İşlemci** | Dual-core 2.0 GHz | Quad-core 2.5+ GHz |
-| **RAM** | 4 GB | 8 GB+ |
-| **Disk** | 1 GB boş alan | 5 GB (SSD) |
-| **Ekran** | 1280x720 | 1920x1080+ |
+| **RAM**     | 4 GB              | 8 GB+              |
+| **Disk**    | 1 GB boş alan     | 5 GB (SSD)         |
+| **Ekran**   | 1280x720          | 1920x1080+         |
 
 ### **Python Bağımlılıkları**
 
@@ -309,12 +335,14 @@ cd sinav-takvimi-sistemi
 ### **2. Python Sanal Ortamı Oluşturun**
 
 **Windows:**
+
 ```powershell
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
 **macOS/Linux:**
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -330,17 +358,20 @@ pip install -r requirements.txt
 ### **4. PostgreSQL Veritabanını Kurun**
 
 **PostgreSQL'e bağlanın:**
+
 ```bash
 psql -U postgres
 ```
 
 **Veritabanı oluşturun:**
+
 ```sql
 CREATE DATABASE sinav_takvimi_db;
 \c sinav_takvimi_db
 ```
 
 **SQL şemasını yükleyin:**
+
 ```bash
 # PostgreSQL komut satırında
 \i sinav_takvimi_final.sql
@@ -352,6 +383,7 @@ psql -U postgres -d sinav_takvimi_db -f sinav_takvimi_final.sql
 ### **5. Ortam Değişkenlerini Ayarlayın**
 
 **.env dosyası oluşturun:**
+
 ```bash
 # Kök dizinde .env dosyası oluşturun
 touch .env  # macOS/Linux
@@ -359,6 +391,7 @@ New-Item .env  # Windows PowerShell
 ```
 
 **Gerekli değişkenleri ekleyin:**
+
 ```env
 # Veritabanı Ayarları
 DB_HOST=localhost
@@ -413,8 +446,8 @@ DB_PASSWORD=your_password # Şifre
 ```json
 {
   "app": {
-    "theme": 0,        // 0: Light, 1: Dark
-    "log_level": 2     // 0: DEBUG, 1: INFO, 2: WARNING, 3: ERROR
+    "theme": 0, // 0: Light, 1: Dark
+    "log_level": 2 // 0: DEBUG, 1: INFO, 2: WARNING, 3: ERROR
   }
 }
 ```
@@ -423,13 +456,13 @@ DB_PASSWORD=your_password # Şifre
 
 Sınav oluşturma sırasında ayarlanabilen parametreler:
 
-| Parametre | Açıklama | Varsayılan |
-|-----------|----------|------------|
-| **Sınav Süresi** | Her sınavın süresi (dakika) | 120 |
-| **Ara Süresi** | Sınavlar arası mola (dakika) | 30 |
-| **Günlük Limit** | Bir sınıfın günlük max sınav sayısı | 3 |
-| **Öğrenci Limiti** | Bir öğrencinin günlük max sınav sayısı | 2 |
-| **Paralel Sınav** | Aynı sınıfın paralel sınavı | Hayır |
+| Parametre          | Açıklama                               | Varsayılan |
+| ------------------ | -------------------------------------- | ---------- |
+| **Sınav Süresi**   | Her sınavın süresi (dakika)            | 120        |
+| **Ara Süresi**     | Sınavlar arası mola (dakika)           | 30         |
+| **Günlük Limit**   | Bir sınıfın günlük max sınav sayısı    | 3          |
+| **Öğrenci Limiti** | Bir öğrencinin günlük max sınav sayısı | 2          |
+| **Paralel Sınav**  | Aynı sınıfın paralel sınavı            | Hayır      |
 
 ---
 
@@ -440,9 +473,9 @@ Sınav oluşturma sırasında ayarlanabilen parametreler:
 1. Uygulamayı başlatın: `python main.py`
 2. Varsayılan kullanıcılardan biriyle giriş yapın:
 
-| Rol | Email | Şifre |
-|-----|-------|-------|
-| **Admin** | admin@kocaeli.edu.tr | admin123 |
+| Rol             | Email                          | Şifre          |
+| --------------- | ------------------------------ | -------------- |
+| **Admin**       | admin@kocaeli.edu.tr           | admin123       |
 | **Koordinatör** | koordinator.bmu@kocaeli.edu.tr | koordinator123 |
 
 ⚠️ **ÖNEMLİ**: İlk girişten sonra mutlaka şifrenizi değiştirin!
@@ -450,6 +483,7 @@ Sınav oluşturma sırasında ayarlanabilen parametreler:
 ### **Bölüm Seçimi**
 
 Koordinatör olarak giriş yaptıktan sonra:
+
 1. Yönetmek istediğiniz bölümü seçin
 2. Bölüm bilgileri ana sayfada gösterilir
 3. Bölüm değiştirmek için sol menüden "Bölüm Değiştir" seçeneğini kullanın
@@ -457,6 +491,7 @@ Koordinatör olarak giriş yaptıktan sonra:
 ### **Derslik Ekleme**
 
 **Adım adım:**
+
 1. Sol menüden **"Derslikler"** sekmesine tıklayın
 2. Sağ üstten **"Yeni Derslik Ekle"** butonuna basın
 3. Formu doldurun:
@@ -471,6 +506,7 @@ Koordinatör olarak giriş yaptıktan sonra:
 ### **Ders Listesi Yükleme**
 
 **Excel Formatı:**
+
 ```
 | Ders Kodu | Ders Adı                  | Kredi | Yarıyıl | Sınıf | Ders Yapısı |
 |-----------|---------------------------|-------|---------|-------|-------------|
@@ -480,6 +516,7 @@ Koordinatör olarak giriş yaptıktan sonra:
 ```
 
 **Adımlar:**
+
 1. **"Ders Yükle"** sekmesine gidin
 2. **"Excel Seç"** ile dosyanızı seçin
 3. **"Yükle"** butonuna tıklayın
@@ -488,6 +525,7 @@ Koordinatör olarak giriş yaptıktan sonra:
 ### **Öğrenci Listesi Yükleme**
 
 **Excel Formatı:**
+
 ```
 | Öğrenci No | Ad Soyad       | Sınıf | E-posta                   | Telefon     |
 |------------|----------------|-------|---------------------------|-------------|
@@ -508,7 +546,7 @@ Koordinatör olarak giriş yaptıktan sonra:
    - 📅 **Tarih Aralığı**: Başlangıç - Bitiş tarihi
    - ⏰ **Sınav Saatleri**: Başlangıç saati ve süre
    - ⏱️ **Ara Süresi**: Sınavlar arası mola
-   - 📊 **Limitler**: 
+   - 📊 **Limitler**:
      - Sınıf günlük limit (örn: 3 sınav)
      - Öğrenci günlük limit (örn: 2 sınav)
    - ⚙️ **Özel Ayarlar**:
@@ -700,7 +738,7 @@ Stratejiler:
 
 2. PARALEl DENEME (5 farklı deneme)
    ├── Strateji 1: Balanced Round-Robin
-   ├── Strateji 2: Greedy Packing  
+   ├── Strateji 2: Greedy Packing
    ├── Strateji 3: Random Shuffle
    ├── Strateji 1 (farklı seed)
    └── Strateji 2 (farklı seed)
@@ -737,15 +775,15 @@ Stratejiler:
 
 **Puanlama Kriterleri:**
 
-| Kriter | Ağırlık | Açıklama |
-|--------|---------|----------|
-| **Öğrenci Günlük Limit** | 25% | Bir öğrencinin günlük max sınav sayısı |
-| **Sınıf Günlük Limit** | 15% | Bir sınıfın günlük max sınav sayısı |
-| **Öğrenci Boşlukları** | 20% | Öğrenci sınavları arası zaman boşlukları |
-| **Sınıf Boşlukları** | 15% | Sınıf sınavları arası zaman boşlukları |
-| **Derslik Kullanımı** | 10% | Dersliklerin dengeli kullanımı |
-| **Dengeli Dağılım** | 10% | Sınavların günlere dengeli yayılması |
-| **Sınav Süresi Opt** | 5% | Sınav sürelerinin optimizasyonu |
+| Kriter                   | Ağırlık | Açıklama                                 |
+| ------------------------ | ------- | ---------------------------------------- |
+| **Öğrenci Günlük Limit** | 25%     | Bir öğrencinin günlük max sınav sayısı   |
+| **Sınıf Günlük Limit**   | 15%     | Bir sınıfın günlük max sınav sayısı      |
+| **Öğrenci Boşlukları**   | 20%     | Öğrenci sınavları arası zaman boşlukları |
+| **Sınıf Boşlukları**     | 15%     | Sınıf sınavları arası zaman boşlukları   |
+| **Derslik Kullanımı**    | 10%     | Dersliklerin dengeli kullanımı           |
+| **Dengeli Dağılım**      | 10%     | Sınavların günlere dengeli yayılması     |
+| **Sınav Süresi Opt**     | 5%      | Sınav sürelerinin optimizasyonu          |
 
 ### **2. Oturma Planı Oluşturma**
 
@@ -786,6 +824,7 @@ Stratejiler:
 ```
 
 **Avantajları:**
+
 - ✅ Dengeli dağılım (her derslik eşit sayıda öğrenci)
 - ✅ Kapasite kontrolü (over-capacity önlenir)
 - ✅ Hızlı çalışma (O(n) kompleksitesi)
@@ -976,11 +1015,13 @@ cursor.execute(query, (user_email,))
 ### **1. Veritabanı Bağlantı Hatası**
 
 **Hata:**
+
 ```
 psycopg2.OperationalError: could not connect to server
 ```
 
 **Çözüm:**
+
 ```bash
 # 1. PostgreSQL servisini kontrol edin
 sudo systemctl status postgresql  # Linux
@@ -1000,11 +1041,13 @@ psql -h localhost -U postgres -d sinav_takvimi_db
 ### **2. Import Hatası**
 
 **Hata:**
+
 ```
 ModuleNotFoundError: No module named 'PySide6'
 ```
 
 **Çözüm:**
+
 ```bash
 # 1. Sanal ortamın aktif olduğundan emin olun
 .venv\Scripts\activate  # Windows
@@ -1018,6 +1061,7 @@ pip install -r requirements.txt
 ### **3. Excel Yükleme Hatası**
 
 **Çözüm:**
+
 ```
 1. Excel dosyasının .xlsx formatında olduğundan emin olun
 2. İlk satırda sütun başlıklarının olduğundan emin olun
@@ -1032,22 +1076,26 @@ pip install -r requirements.txt
 Bu projeye katkıda bulunmak istiyorsanız:
 
 ### **Hata Bildirimi**
+
 - 🐛 Hata bulduğunuz zaman belirtilen bilgilendirme formu doldurarak iletişime geçin
 - 📝 Hata tanımlaması, adımları ve çıktısını net şekilde açıklayın
 - 📸 Mümkünse ekran görüntüleri ekleyin
 
 ### **Özellik İsteği**
-- 💡 Yeni özellik önerileri için (ozdmromer24@gmail.com) ile iletişime geçin
+
+- 💡 Yeni özellik önerileri için (dev.omer.ozdemir@gmail.com) ile iletişime geçin
 - 📋 Önerinizi açık ve detaylı bir şekilde tanımlayın
 - 🔗 İlgili kullanım örnekleri sağlayın
 
 ### **Kod Katkısı**
+
 - 🍴 Depoyu forklayın
 - 🌿 Yeni bir branch oluşturun (`feature/new-feature`)
 - ✍️ Kodunuzu yazın ve test edin
 - 📤 Pull request gönderin
 
 ### **Kodlama Standartları**
+
 - 🐍 PEP 8 Python stil kılavuzunu takip edin
 - 💬 Anlaşılır değişken ve fonksiyon isimleri kullanın
 - 📚 Fonksiyonlar için docstring yazın (türkçe veya ingilizce)
@@ -1058,6 +1106,7 @@ Bu projeye katkıda bulunmak istiyorsanız:
 ## 🗺 Roadmap
 
 ### **v2.1.0** (Planlanıyor - Q2 2025)
+
 - 🌐 Multi-tenancy desteği (birden fazla üniversite)
 - 📊 Gelişmiş istatistik ve analiz dashboard'u
 - 📅 İçe aktarım/dışa aktarım işlemleri iyileştirmesi
@@ -1065,6 +1114,7 @@ Bu projeye katkıda bulunmak istiyorsanız:
 - 🌍 İngilizce dil desteği
 
 ### **v3.0.0** (Planlanıyor - Q4 2025)
+
 - 🌐 Web uygulaması (Django REST API + React)
 - ☁️ Cloud deployment (AWS, Azure)
 - 📱 Mobile uygulama (React Native)
@@ -1073,6 +1123,7 @@ Bu projeye katkıda bulunmak istiyorsanız:
 - 🔄 Otomatik sınav programı yönetimi
 
 ### **Ara Sürümlerde Planlanmış İyileştirmeler**
+
 - ⚡ Performans optimizasyonu
 - 🎨 UX/UI revizyonu
 - 📚 Kapsamlı API dokümantasyonu
@@ -1084,30 +1135,35 @@ Bu projeye katkıda bulunmak istiyorsanız:
 ## 🔒 Güvenlik
 
 ### **Şifre Güvenliği**
+
 - ✅ **BCrypt Hashing**: Tüm şifreler BCrypt ile hash'lenir (12 rounds)
 - ✅ **Strong Password Requirement**: Minimum 8 karakter (sonra değiştirilebilir)
 - ✅ **Password Reset**: E-mail doğrulamalı güvenli şifre sıfırlama
 - ✅ **Session Management**: Otomatik session timeout (varsayılan: 8 saat)
 
 ### **Veritabanı Güvenliği**
+
 - ✅ **Connection Pooling**: Thread-safe bağlantı havuzu
 - ✅ **SQL Injection Prevention**: Parametreli SQL sorgular
 - ✅ **Row Level Security (RLS)**: PostgreSQL RLS politikaları
 - ✅ **Encrypted Passwords**: Tüm şifreler veritabanında hash'lı
 
 ### **Uygulama Güvenliği**
+
 - ✅ **Environment Variables**: Hassas bilgiler .env dosyasında
 - ✅ **CSRF Protection**: Mevcut (PySide6 GUI uygulaması için otomatik)
 - ✅ **Input Validation**: Tüm kullanıcı girdileri doğrulanır
 - ✅ **Audit Logging**: Tüm işlemler kaydedilir
 
 ### **Erişim Kontrol**
+
 - ✅ **Role-Based Access Control (RBAC)**: Admin, Koordinatör, Okuyucu rolleri
 - ✅ **Department Level Access**: Koordinatörler sadece kendi bölümlerine erişir
 - ✅ **Action Logging**: Kim, ne zaman, ne yaptığı kaydedilir
 - ✅ **IP Whitelist**: Opsiyonel IP kısıtlaması
 
 ### **Güvenlik Önerileri**
+
 - 🔐 Düzenli olarak şifreleri güncelleyin
 - 🔐 Admin hesabının şifresini güçlü tutun
 - 🔐 İşletim sistemi ve PostgreSQL'i güncel tutun
@@ -1115,9 +1171,11 @@ Bu projeye katkıda bulunmak istiyorsanız:
 - 🔐 Log dosyalarını düzenli olarak gözden geçirin
 
 ### **Rapor Etme**
+
 Güvenlik zaafiyeti bulduysanız:
+
 - ⚠️ **Lütfen herkese açık şekilde bildirmeyin**
-- 📧 **E-mail gönderin**: ozdmromer24@gmail.com
+- 📧 **E-mail gönderin**: dev.omer.ozdemir@gmail.com
 - ☎️ **Telefon**: 05334486424
 - ⏰ **Yanıt Süresi**: 48 saat içinde
 
@@ -1126,20 +1184,24 @@ Güvenlik zaafiyeti bulduysanız:
 ## 📞 İletişim
 
 ### **Proje Geliştirici**
+
 **Ömer Faruk Özdemir**
-- 📧 **E-posta**: ozdmromer24@gmail.com
+
+- 📧 **E-posta**: dev.omer.ozdemir@gmail.com
 - ☎️ **Telefon**: 05334486424
 - 💼 **LinkedIn**: [LinkedIn Profilim](https://linkedin.com/in/ozdemir)
 - 🐙 **GitHub**: [@ozdemir](https://github.com/ozdemir)
 
 ### **Kocaeli Üniversitesi - Bilgi İşlem Daire Başkanlığı**
+
 - 🌐 **Website**: [www.kocaeli.edu.tr](https://www.kocaeli.edu.tr)
 - 📧 **Email**: bilgiislem@kocaeli.edu.tr
 - ☎️ **Telefon**: +90 (262) 303 10 00
 
 ### **Destek ve Geri Bildirim**
-- 🐛 **Hata Bildirimi**: ozdmromer24@gmail.com
-- 💡 **Özellik İsteği**: ozdmromer24@gmail.com
+
+- 🐛 **Hata Bildirimi**: dev.omer.ozdemir@gmail.com
+- 💡 **Özellik İsteği**: dev.omer.ozdemir@gmail.com
 - 📞 **Acil Sorunlar**: 05334486424
 
 ---
@@ -1154,6 +1216,7 @@ Bu proje **Kocaeli Üniversitesi**'ne aittir ve özel lisans altındadır.
 ## 🔄 Versiyon Geçmişi
 
 ### **v2.0.0** (2025-01-30)
+
 - ✨ Çok stratejili sınav programı algoritması
 - ✨ Round-robin oturma planı algoritması
 - ✨ Dengeli derslik dağıtımı
@@ -1163,6 +1226,7 @@ Bu proje **Kocaeli Üniversitesi**'ne aittir ve özel lisans altındadır.
 - 🎨 UI/UX iyileştirmeleri
 
 ### **v1.0.0** (2024-12-15)
+
 - 🎉 İlk stabil sürüm
 - ✅ Temel CRUD işlemleri
 - ✅ Excel import/export
@@ -1180,7 +1244,7 @@ Bu proje **Kocaeli Üniversitesi**'ne aittir ve özel lisans altındadır.
 **⭐ Bu proje Kocaeli Üniversitesi'nin dijital dönüşüm yolculuğunun bir parçasıdır ⭐**
 
 👨‍💼 **Geliştirici:** Ömer Faruk Özdemir  
-📧 **İletişim:** ozdmromer24@gmail.com  
+📧 **İletişim:** dev.omer.ozdemir@gmail.com  
 📞 **Telefon:** 05334486424
 
 </div>
